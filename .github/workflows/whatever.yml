@@ -23,3 +23,8 @@ jobs:
 
       - name: Test 🚨
         run: npm test
+
+      - name: Simulate an error
+        run: echo "About to fail" ; exit 1
+
+      # comment
