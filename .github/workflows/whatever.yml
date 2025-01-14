@@ -7,8 +7,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Simulate an error
-        run: echo "About to fail" ; exit 1
+      #- name: Simulate an error
+      #  run: echo "About to fail" ; exit 1
 
       - name: Checkout 🛎️
         uses: actions/checkout@v2
